@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="tag:adobe.com,2012-03:edge:oam:compid:EDGE-17247993" name="flick logo animation" version="1">
+
+  <description type="text/html"><![CDATA[Widget Exported from Adobe Edge (V1.DW.Edge)]]></description>
+  <category name="Adobe Edge Animation"/>
+
+  <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+
+  <icon src="transparent.png" width="1152" height="648" />
+
+  <require type="other" src="flick logo animation.html" />
+  <require type="other" src="media/audio.wav" />
+  <require type="other" src="media/Audio_Flick.wav" />
+  <require type="other" src="media/Audio_Flickreduced noise.wav" />
+
+  <require type="javascript" src="flick logo animation_edge.js" />
+  <require type="javascript" src="edge_includes/edge.5.0.1.min.js" />
+
+  <require type="image" src="transparent.png" />
+  <require type="image" src="images/lamp.png" />
+  <require type="image" src="images/lamp2.png" />
+  <require type="image" src="images/lick.png" />
+  <require type="image" src="images/lick2.png" />
+  <require type="image" src="images/logo-master-color.png" />
+  <require type="image" src="images/logo-master-mono-white-green.png" />
+  <require type="image" src="images/Poster.png" />
+
+  <require type="folder" src="edge_includes" />
+  <require type="folder" src="images" />
+  <require type="folder" src="media" />
+
+
+  <content><![CDATA[
+    <div class="EDGE-17247993"></div>
+  ]]></content>
+   
+  <properties name="Properties">
+    <property name="default-width" defaultValue="1152" hidden="true"/>
+    <property name="default-height" defaultValue="648" hidden="true"/>
+    <property name="resizable" defaultValue="true" hidden="true"/>				
+		<property name="centering" defaultValue="both" hidden="true"/>				
+		<property name="scaling" defaultValue="width" hidden="true"/>
+    <property name="html-page" defaultValue="flick logo animation.html" hidden="true"/>
+  </properties>
+
+</widget>
